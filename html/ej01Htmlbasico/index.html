@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html	lang="es">
+	
+	<head>
+		<title> Ejercicio 01 HTML </title>
+	</head>
+	
+	<body>
+		<h1>Primer parrafo corto</h1>
+		<h3>Segundo Parrafo corto(Incluye retorno de carro)</h3>
+		<h4>Grupo de elementos de navegacion</h4>
+		
+		<li>
+		<a href="https://www.yahoo.com" title="Pagina principal Yahoo">Yahoo</a>
+		</li>
+		
+		<li>
+		<a href="https://www.google.com.ar/" title="Pagina principal Google">Google</a>
+		</li>
+		
+		<li>
+		<a href="https://www.youtube.com/" title="Pagina principal Youtube">YouTube</a></li>
+		<br>
+		<br>
+		<br>
+		<hr>
+		<a href="./ej01MismaVentana/">Enlace a otra pagina dentro de la misma pestana   </a>
+		<a href="./ej01DistintaVentana/ " target="_blank">  Enlace a otra pagina distinta pestana</a>
+		<a href="#Anclajedevideo">Ancla a otro punto de esta pagina</a>
+		<hr>
+		<h2>Cuerpo principal del contenido</h2>
+		
+		<ol>
+		<p>
+		<li>Dar un par de ejemplos de uso de etiquetas meta.
+			<br>
+			Meta de "metainformation": sirve para aportar información sobre el documento y generalmente se codifican en la cabecera de un documento html. Ejemplos: 
+			<br>
+			name="description", es una breve descripción de la página.
+			<br>
+			name="author" Poder ingresar el nombre del autor.
+		</li>
+		<br>
+		
+		<li>Nombrar al menos 2 atributos aplicables a la etiqueta HTML
+			<br>
+			lang: "agregar el lenguaje del documento html".
+			<br>	
+			id: "Sirve para identificar de forma individual a cada elemento HTML".
+			<br>
+			style: Define el estilo de un elemento HTML y puede determinar, por ejemplo, su color, fuente o tamaño.
+		</li>
+		<br>
+		
+		<li>Como se relaciona un header http con la etiqueta head de HTML?
+			<br>
+			Ambos contienen metadatos. Mientras que el elemento head provee metadatos para el documento, header contiene un grupo de elementos introductorios o de navegación.
+		</li>
+		<br>
+		
+		<li>Que es UTF8?
+			<br>
+			UTF8 son las siglas de "8-bit Unicode Transformation Format", un formato de codificación de caracteres Unicode e ISO 10646 que utiliza símbolos de longitud variable. Tiene una serie de características que lo hacen perfecto para codificar tu correos electrónicos y crear tu página web.
+		</li>
+		<br>
+		
+		<li>Que atributo HTML sirve para aplicar estilo, a que etiqueta es aplicable?
+			<br>
+			El elemento encargado de indicar la información de estilo es la etiqueta "Style". 
+		</li>
+		<br>
+		
+		<li>Donde se indica que un enlace debe ubicar el documento en una nueva pestana?
+			<br>
+			En la etiqueta < a >, con atributo target="_blank"  abre el enlace en una nueva pestaña o ventana del navegador.
+		</li>
+		<br>
+		<li>Explicar cuando usarian etiquetas semanticas y con que proposito.
+			<br>
+			Las etiquetas semanticas sirven para definir el esquema principal del documento, como HEADER, ARTICLE, SECTION, ASIDE, FOOTER, NAV. Todas esas etiquetas semanticas nos indican que es el contenido que engloban y cuál es su relación con el conjunto de elementos del documento HTML
+		</li>
+		<br>
+		
+		<li>¿Que atributos de estilo basicos aplicarían a una tabla? Explicar.
+			<br>
+			background-color: cambia el color de fondo de la celda.
+			<br>
+			border-color cambia el color de los bordes.
+			<br>
+			style="width": darle ancho a las celdas.
+			
+		</li>
+		<br>
+		<li> ¿Que diferencia existe entre la etiqueta body de un documento HTML y el body del protocolo HTTP?
+			<br>
+			Un campo de cuerpo de mensaje opcional ('body') lleva los datos asociados con la petición (como contenido de un formulario HTML), o los archivos o documentos asociados a una respuesta. La etiqueta "body" en html representa el contenido de un documento HTML. 
+		</li>
+		<br>
+		<li>¿Que atributos marcan la agrupación de celdas de una tabla?. ¿A que etiquetas se aplican?
+			<br>
+			"Colspan" para columnas y "rowspan" para filas. Aplican a la etiqueta < td >.
+		</li>
+		<br>
+		
+		</ol>
+		<br>
+		La etiqueta main es en HTML5 una etiqueta semantica. Esto quiere decir que tiene que ver con el significado de lo contenido dentro de ella. Define el contenido principal de la pagina. Unicamente puede haber una sola etiqueta como esta en todo el documento.
+			El contenido escrito aqui dentro no se repite en el resto del sitio (todo lo contrario a los encabezados de pagina, los menues de navegacion y los pie de pagina).</p>
+		
+		<h3>Seccion etiquetas</h3>
+		
+		<li>HEADER</li>
+		<li>FOOTER</li>
+		<li>SECTION</li>
+		<li>ARTICLE</li>
+		<li>NAV</li>
+		<li>ADRESS</li>
+
+		<h3>Seccion de imagenes</h3>
+		<p>En esta seccion mostraremos las imagenes identificativas de nuestro sitio.
+			La siguiente imagen esta insertada en un tamano natural</p>
+		<br>
+		<img src="./argentinacampeon.jpg">
+		<br>
+		<br>
+		
+		<p>Las imagenes de debajo con diferente anchura</p>
+		<img src="./argentinacampeon.jpg" width="200" height="546">
+		<img src="./argentinacampeon.jpg" width="400" height="546">
+		<img src="./argentinacampeon.jpg" width="600" height="546">
+		<br>
+
+		<h3>Seccion de video</h3>
+		<br>
+		<video src="./a-ha - Take On Me.mp4" width="480" height="369" controls=""></video>
+		<br>
+		
+		<h2>Anclajes</h2>
+		<a id="Anclajedevideo">Punto de anclaje</a>
+		<br>
+		<br>
+		<br>
+		<br>
+
+	</body>
+	
+	<footer>
+		<h1>Mis datos:</h1>
+		<p>Alan Leonel Morello</p>
+		<p>Legajo: 26314</p>
+			<a href="mailto:alanmorello@outlook.com">alanmorello@outlook.com</a>
+		</footer>
+</html>
